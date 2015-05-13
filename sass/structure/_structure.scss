@@ -1,0 +1,289 @@
+.preloader {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: $primary-color;
+	z-index: 20000;
+	/*
+		-webkit-transform-style: preserve-3d;
+	  -moz-transform-style: preserve-3d;
+	  transform-style: preserve-3d; 
+	  */
+	  text-align: center;
+	  .loading { 
+	  	width: 100%;
+	  	height: 50px;
+	  	position: absolute;
+	  	top: 50%;
+	  	-webkit-transform: translateY(-50%);
+	  	-ms-transform: translateY(-50%);
+	  	transform: translateY(-50%);
+	  	.spinner {
+	  		width: 24px;
+	  		margin: 0 auto;
+	  		@include rhythm(0, 0, 0, 1);
+	  	}
+	  	p {
+	  		@include rhythm(0, .3, .3, 0);
+	  		font: arial;
+	  		text-transform: uppercase;
+	  		@include adjust-font-size-to(12px, 1);
+	  		color: $white;
+	  		text-align: center;
+	  		letter-spacing: 1px;
+	  	}
+	  }
+	}
+
+
+	#progress-bar, #info {
+		height: 5px;
+		width: 0;
+		position: fixed; 
+		top: 0;
+		left: 0;
+		z-index: 20000;
+		background-color: $white;
+	}
+
+
+	.container {
+		width: 80em;
+		margin: 0 auto;
+	}
+
+	header.header{
+		//@extend %bdr;
+		.inner {
+			//@extend %bdr;
+			@extend .max-width;
+			margin: 0 auto;
+			height: 100px;
+			@include breakpoint($large){
+				height: 140px;
+			}
+			img {
+				@extend %vertical-align;
+				float: right;
+				width: 180px;
+				@include breakpoint($large){ 
+					width: 214px;
+				}
+			}
+		}
+	}
+
+
+	.hero {
+		//@extend %bdr;
+		position: relative;
+		overflow: visible;
+		z-index: 0;
+		.inner {
+			@include rhythm(0, 3, 3, 0);
+			position: relative;
+			@extend .max-width;	
+			//@include clearfix;
+			@extend %clearfix;
+			//@extend %bdr;
+			.col {
+				&.col1 {
+					position: relative;
+					@include breakpoint($large){	
+						position: absolute;
+						z-index: 1;
+						width: 37%;
+						top: 30px;
+						left: 20px;
+					}
+				}
+				&.col2 {
+					z-index: 0;
+					img {
+						width: 100%;
+						@include breakpoint($large){
+							float: right;
+							width: 80%;
+						}
+					}
+				}
+			}
+		}
+		.scroll-down {
+			position: absolute;
+			bottom: 20px;
+			width: 100%;
+			z-index: 1;
+			margin: 0 auto;
+			//@extend %bdr;
+			img {
+				position: relative;
+				margin: 0 auto;
+				width: 30px;
+				height: auto;
+				@include breakpoint($medium){
+					width: 43px;
+				}
+				@include breakpoint($large){
+					width: 63px;
+				}
+			}
+		}
+	}
+
+	.steps {
+		ul.inner {
+			@include rhythm(0, 3, 3, 0);
+			@extend .max-width;	
+			li {
+				@extend %clearfix;
+				position: relative;
+				@include rhythm(0, 3, 1, 0);
+			.inner {
+				@include span(10 of 12);
+			}
+			.outer {
+				@include span(2 of 12);
+				position: absolute;
+				right: 0;
+				bottom: 0;
+				height: 100%;
+			}
+			h4 {
+				&.link {
+					float: right;
+					@extend %vertical-align;
+				}
+			}
+			p {
+
+			}
+			&.myBdr {
+				border-bottom: solid 1px $primary-color;
+			}
+		}
+	}
+}
+
+
+footer {
+	.inner {
+		@include rhythm(0, 3, 3, 0);
+		@extend .max-width;
+		@extend %clearfix;
+		.col1 {
+			//@extend %bdr;
+			ul {
+				li {
+					float: left;
+					margin-right: 20px;
+				}
+			}
+			@include breakpoint($large){
+				@include span(9 of 12);
+			}
+		}
+		.col2 {
+			//@extend %bdr;
+			@include breakpoint($large){
+				@include span(3 of 12);
+			}
+		}
+	}
+}
+
+.remodal-wrapper {
+	.remodal {
+		.logo {
+			@include rhythm(0, 0, 0, 4);
+			width: 150px;
+		}
+		h1, h2, p {
+			text-align: left;
+		}
+		.inner {
+			@extend %clearfix;
+			.col1 {
+				@extend %bdr;
+				@include rhythm(0, 5, 0, 0);
+				padding-left: 2.6em;
+				@include breakpoint($large){
+					@include span(6 of 12);
+				}
+			}
+			.col2 {
+				@extend %bdr;
+				img {
+					float: right;
+					width: 100%;
+				}
+				@include breakpoint($large){
+					@include span(5 of 12);	
+				}
+			}
+		}
+		p {
+			padding-left: 2.6em;
+			display: block;
+		}
+	}
+}
+
+
+
+form {
+	ul {
+		li {
+			@include clearfix;
+			.fields {
+				display: block;
+				width: 100%;
+				@include clearfix;
+				@include rhythm(0, 1, 1, 0);
+				position: relative;
+				h3 {
+					//color: $tertiary-color;
+					font-family: 'bosch_sansregular';
+					//@include adjust-leading-to(1);
+					@include rhythm(0, 0, .3, 0);
+					@include adjust-font-size-to(18px, 2);
+					color: $black;
+					@include transition(all 0.5s ease-in-out);
+					&.active {
+						color: $primary-color;
+						font-size: 20px;
+					}
+				}
+				@include breakpoint($medium){
+					&.one-fourth {
+						width: 25%;
+						float: left;
+					}
+					&.two-fourths {
+						width: 50%;
+						float: left;
+					}
+					&.three-fourths {
+						width: 75%;
+						float: left;
+					}
+				}
+				&.submit {
+					input [type="submit"]{
+						@include rhythm(1, 0, 0, 0);
+					}
+				}
+			}
+			//@include rhythm(0, .5, .5, 0);
+		}
+	}
+}
+
+.bdr-right {
+	@include breakpoint($medium){
+		border-right: solid 1em $white;
+	}
+}

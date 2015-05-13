@@ -1,0 +1,75 @@
+header.header{
+	background: $grey;
+}
+
+
+.hero {
+	background: $light-grey;
+	.inner {
+		//background: $light-grey;
+		h1 {
+			color: $black;
+		}
+
+		h2, h3 {
+			color: $dark-grey;
+		}
+	}
+}
+
+
+
+.fixed-wrapper{
+	    position: fixed;
+	    top: 0;
+}
+
+
+.steps {
+	ul {
+		li {
+			&.opacity {
+				@include opacity(0.4);
+			}
+			h4 {
+				color: $primary-color;
+				&.link {
+					font-size: 14px;
+					@include breakpoint($large){
+						font-size: 18px;
+					}
+				}
+			}
+			p {
+
+			}
+		}
+	}
+}
+
+
+footer {
+	background-color: $light-grey;
+	.inner {
+		.col1 {
+			ul {
+				li {
+					
+				}
+			}
+		}
+		.col2 {
+			text-align: right;
+			p {
+				@include adjust-leading-to(1);
+			}
+			img {
+				display: inline;
+			}
+		}
+	}
+}
+
+#v-gradient {
+  @include background-image(linear-gradient($tertiary-color, $primary-color));
+}

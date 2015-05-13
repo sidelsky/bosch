@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head> 
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> 
+
+  <link rel="stylesheet" href="styles/unminified-styles/app.css">
+    <!--
+      Minified styles
+      <link rel="stylesheet" href="styles/app.css">
+    -->
+    <script src="javascript/vendor/modernizr-2.6.2.min.js"></script>
+  </head>
+  <body id="skrollr-body">
+
+  <!--[if lt IE 7]>
+  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <div id="info">0</div>
+
+  <div id="progress-bar"
+  data-0="width:0%;"
+  data-end="width:100%"
+  >
+</div>
+
+<!-- Content -->
+
+
+<div class="remodal" data-remodal-id="modal" data-remodal-options="hashTracking: false">
+  <img src="images/bosch-logo.png" alt="Bosch logo" class="logo">
+  <div class="inner">
+    <div class="col1">
+      <h1>Purchase a qualifying Bosch Laundry Appliance</h1>
+      <h2>Purchase one of the following Bosch Laundry models to qualify for the offer</h2>
+    </div>
+    <div class="col1">
+      <img src="images/washing-machine.jpg" alt="Bosch washing machine">
+    </div>
+  </div>
+    <p>The promotion shall not apply to purchases of graded, seconds, replacements and imperfect products or to trade contract sales.</p>
+</div>
+
+<header id="header" class="header">
+
+  <div class="inner">
+    <img src="images/bosch-logo.png" alt="Bosch logo">
+  </div>
+
+</header>
+
+<div class="hero">
+  <div class="inner">
+    <div class="col col1">
+      <h1>£100* towards your summer wardrobe</h1>
+      <h2>Claim £100 towards your new wardrobe this summer when you purchase a selected laundry appliance from Bosch.</h2>
+      <h3>*Free for a short time only</h3>
+    </div>
+    <div class="col col2">
+     <img src="images/bosch-washing-machine.png" alt="Bosch washing machine and pants on the washing line">
+   </div>
+
+   </div>
+
+  <i class="scroll-down">
+    <img src="images/scroll-down-icon.png" alt="Scroll down">
+  </i>
+
+</div>
+
+
+<div class="steps">
+  <ul class="inner">
+    <li class="active myBdr">
+      <div class="inner">
+        <h4>Step 1</h4>
+        <p>Purchase a <a data-remodal-target="modal" href="#modal">qualifying Bosch Laundry Appliance</a></p>
+      </div>
+      <div class="outer">
+        <h4 class="link"><a href="#">Step 2 ></a></h4>
+      </div>
+    </li>
+    <li class="opacity myBdr">
+      <h4>Step 2</h4>
+      <p>Register your details within 30 days of purchasing your appliance</p>
+    </li>
+    <li class="opacity myBdr">
+      <h4>Step 3</h4>
+      <p>We’ll email you a unique code within 2 working days, then upload your proof of purchase and enter your appliance serial number within 30 days</p>
+    </li>
+    <li class="opacity myBdr">
+      <h4>Step 4</h4>
+      <p>Once you’ve been validated, we'll email you a link to confirm your postal address within 14 days</p>
+    </li>
+    <li class="opacity myBdr">
+      <h4>Step 5</h4>
+      <p>We’ll post you your £100 Bosch Prepaid MasterCard® so you can start your summer wardrobe shopping!</p>
+    </li>
+  </ul>
+</div>
+
+<footer>
+  <div class="inner">
+    <div class="col1">
+      <ul>
+        <li>
+          <a href="faqs.shtml" title="">FAQs</a>
+        </li>
+        <li>
+          <a href="terms-and-conditions.shtml" title="">T&Cs</a>
+        </li>
+        <li>
+          <a href="contact-us.shtml" title="">Contact us</a>
+        </li>
+        <li>
+          <a href="cookies-policy.shtml" title="">Cookies policy</a>
+        </li>
+        <li>
+          <a href="privacy-policy.shtml" title="">Privacy policy</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col2">
+      <p>© Copyright 2015 TLC Marketing</p>
+      <a href="http://www.tlcmarketing.com/" title="TLC Marketing">
+        <img src="images/powered-by-tlc-marketing.png" alt="Powered by TLC Marketing">
+      </a>
+    </div>
+  </div>
+</footer>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <!--
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="vendors/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
+    <script src="javascript/main.min.js"></script>
+  -->
+
+  <script src="javascript/main.min.js"></script>
+
+</body>
+</html>

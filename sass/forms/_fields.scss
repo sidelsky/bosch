@@ -1,0 +1,324 @@
+input[type="checkbox"],
+input[type="radio"] {
+	padding: 0; /* Addresses excess padding in IE8/9 */
+}
+
+input[type="search"] {
+	-webkit-appearance: textfield; /* Addresses appearance set to searchfield in S5, Chrome */
+	-webkit-box-sizing: content-box; /* Addresses box sizing set to border-box in S5, Chrome (include -moz to future-proof) */
+	-moz-box-sizing:    content-box;
+	box-sizing:         content-box;
+}
+
+input[type="search"]::-webkit-search-decoration { /* Corrects inner padding displayed oddly in S5, Chrome on OSX */
+	-webkit-appearance: none;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner { /* Corrects inner padding and border displayed oddly in FF3/4 www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ */
+	border: 0;
+	padding: 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+	font-family: 'gotham_lightregular';
+	//@include adjust-font-size-to(24px, 2);
+	font-size: 24px;
+	-webkit-appearance: none;
+  border-radius: 0;
+  border: none;
+}
+
+
+input[type="image"] {
+	-webkit-appearance: none;
+  border-radius: 0;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+textarea:focus {
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"] {
+	padding: 3px 10px;
+}
+
+textarea {
+	overflow: auto; /* Removes default vertical scrollbar in IE6/7/8/9 */
+	padding-left: 3px;
+	vertical-align: top; /* Improves readability and alignment in all browsers */
+	width: 100%;
+}
+
+
+input[type="text"] {
+	transition: text-indent 0.5s 0.2s ease;
+	text-indent: 0%;
+  @include input-placeholder {
+    color: $black;
+  }
+  &:focus {
+  	@include input-placeholder {
+	  	transition: text-indent 0.5s 0.2s ease; 
+		  text-indent: -300%;
+		  opacity: 1;
+  	}
+  }
+}
+
+
+label span {
+	color: $error;
+	font-size: 16px;
+}
+
+.fields {
+	input[type="text"],
+	input[type="email"],
+	input[type="url"],
+	input[type="password"],
+	input[type="search"],
+	textarea {
+		outline: none;
+		//background: lighten($grey, 55%);
+		font-family: 'bosch_sansregular';
+		background: $light-grey;
+		width: 100%;
+		@include rhythm(0, 1.5, 1.5, 0);
+			@include input-placeholder {
+	    	color: darken($grey, 5%);
+	  }
+	  &:focus {
+	  	@include transition(all 0.5s ease-in-out);
+	  	background: $white;
+	  }
+	  &.has-value {
+	  	//padding-left: 0;
+	  	background: lighten($grey, 55%);
+	  	color: darken($grey, 50%);
+	  }
+	}
+	p {
+		@extend %vertical-align;
+		float: left;
+		@include rhythm(0, 3, 0, 0);
+		padding-left: 1em;
+	}
+}
+
+.sliding-u-l-r {
+	display: block;
+	height: 3px;
+	width: 0;
+	background-color: $grey;
+	transition: width .5s ease, background-color .5s ease;
+	&.active {
+		width: 100%;
+	}
+}
+
+	// .error {
+	// input[type="text"],
+	// input[type="email"],
+	// input[type="url"],
+	// input[type="password"],
+	// input[type="search"],
+	// textarea {
+	// 		color: $error !important;
+	// 	}
+	// 	.sliding-u-l-r {
+	// 		width: 100%;
+	// 		background-color: $error;
+	// 	}
+	// 	.error {
+	// 		color: $error !important;
+	// 		@include rhythm(0, .5, .5, 0);
+	// 		display: block;
+	// 	}
+	// }
+.error {
+	color: $error !important;
+	&:active {
+		color: $error !important;
+	}
+}
+.error-message {
+	//display: none;
+	color: $error;
+	//display: block;
+	@include adjust-font-size-to(16px, 1.6);
+	&.alt {
+		background: $light-grey;
+	}
+	&:before {
+		content: "\f06a";
+	  font-family: FontAwesome;
+	  font-style: normal;
+	  font-weight: normal;
+	  text-decoration: inherit;
+	  margin-right: 5px;
+	}
+}
+
+input[type="submit"] {
+	@include rhythm(0, 0, 0, .5);
+}		
+
+// .sliding-u-l-r {
+// display: inline-block;
+// }
+// .sliding-u-l-r:after {
+// content: '';
+// display: block;
+// height: 3px;
+// width: 0;
+// background: transparent;
+// transition: width .5s ease, background-color .5s ease;
+// }
+// .sliding-u-l-r:hover:after {
+// width: 100%;
+// background: blue;
+// }
+
+/* 	&:active {
+		border-bottom: solid 1px lighten($grey, 40%);
+	}
+		border-bottom: solid 1px lighten($grey, 40%);
+		border-width: 10px; */
+
+
+.regular-checkbox {
+	display: none;
+}
+
+.regular-checkbox + label {
+	background-color: #fafafa;
+	//border: 1px solid #cacece;
+	//box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 1em;
+	background: $light-grey;
+	//border-radius: 3px;
+	display: inline-block;
+	position: relative;
+	float: left;
+}
+
+.regular-checkbox + label:active,
+.regular-checkbox:checked + label:active {
+	//box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.regular-checkbox:checked + label {
+	background-color: #e9ecee;
+	//border: 1px solid #adb8c0;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	color: #99a1a7;
+}
+
+.regular-checkbox:checked + label:after {
+	font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+	content: '\f00c';
+	font-size: 14px;
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	color: green;
+}
+
+
+.big-checkbox + label {
+	padding: 20px;
+}
+
+.big-checkbox:checked + label:after {
+	font-size: 28px;
+	left: 6px;
+}
+
+.tag {
+	font-family: Arial, sans-serif;
+	width: 200px;
+	position: relative;
+	top: 5px;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: block;
+	float: left;
+}
+
+.radio-1 {
+	width: 193px;
+}
+
+.button-holder {
+	float: left;
+}
+
+/* RADIO */
+
+.regular-radio {
+	display: none;
+}
+
+.regular-radio + label {
+	-webkit-appearance: none;
+	background-color: #fafafa;
+	border: 1px solid #cacece;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+	border-radius: 50px;
+	display: inline-block;
+	position: relative;
+}
+
+.regular-radio:checked + label:after {
+	content: ' ';
+	width: 12px;
+	height: 12px;
+	border-radius: 50px;
+	position: absolute;
+	top: 3px;
+	background: #99a1a7;
+	box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+	text-shadow: 0px;
+	left: 3px;
+	font-size: 32px;
+}
+
+.regular-radio:checked + label {
+	background-color: #e9ecee;
+	color: #99a1a7;
+	border: 1px solid #adb8c0;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1), inset 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.regular-radio + label:active, .regular-radio:checked + label:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.big-radio + label {
+	padding: 16px;
+}
+
+.big-radio:checked + label:after {
+	width: 24px;
+	height: 24px;
+	left: 4px;
+	top: 4px;
+}

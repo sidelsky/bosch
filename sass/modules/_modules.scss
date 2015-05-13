@@ -1,0 +1,13 @@
+.module-12-of-12 {
+	@include span(12 of 12);
+}
+
+.module-6-of-12 {
+	@include span(12 of 12 no-gutters);
+	&.col {
+		 
+	}
+	@include breakpoint($medium) {
+		@include span(6 of 12 no-gutters);
+	}
+}
