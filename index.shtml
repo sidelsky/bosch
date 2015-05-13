@@ -34,20 +34,48 @@
 </div>
 
 <!-- Content -->
-
-
 <div class="remodal" data-remodal-id="modal" data-remodal-options="hashTracking: false">
   <img src="images/bosch-logo.png" alt="Bosch logo" class="logo">
   <div class="inner">
     <div class="col1">
       <h1>Purchase a qualifying Bosch Laundry Appliance</h1>
       <h2>Purchase one of the following Bosch Laundry models to qualify for the offer</h2>
+      <div class="table-list">
+        <ul class="col">
+          <li>WAY28790GB</li>
+          <li>WAS28462GB</li>
+          <li>WAQ2836SGB</li>
+          <li>WAT32480GB</li>
+          <li>WAW28560GB</li>
+        </ul>
+        <ul class="col">
+          <li>WAS287B0GB</li>
+          <li>WAQ28462GB</li>
+          <li>WAQ284D0GB</li>
+          <li>WVH28422GB</li>
+          <li>WAQ283S1GB</li>
+        </ul>
+        <ul class="col">
+          <li>WAW28660GB</li>
+          <li>WAT28460GB</li>
+          <li>WAQ28470GB</li>
+          <li>WVG30461GB</li>
+          <li>WAT28350GB</li>
+        </ul>
+        <ul class="col">
+          <li>WAW32560GB</li>
+          <li>WAT24460GB</li>
+          <li>WAY28791GB</li>
+          <li>WVH2836SGB</li>
+          <li>WVG3046SGB</li>
+        </ul>
+      </div>
     </div>
-    <div class="col1">
+    <div class="col2">
       <img src="images/washing-machine.jpg" alt="Bosch washing machine">
     </div>
   </div>
-    <p>The promotion shall not apply to purchases of graded, seconds, replacements and imperfect products or to trade contract sales.</p>
+  <p>The promotion shall not apply to purchases of graded, seconds, replacements and imperfect products or to trade contract sales.</p>
 </div>
 
 <header id="header" class="header">
@@ -69,11 +97,11 @@
      <img src="images/bosch-washing-machine.png" alt="Bosch washing machine and pants on the washing line">
    </div>
 
-   </div>
+ </div>
 
-  <i class="scroll-down">
-    <img src="images/scroll-down-icon.png" alt="Scroll down">
-  </i>
+ <i class="scroll-down">
+  <img src="images/scroll-down-icon.png" alt="Scroll down">
+</i>
 
 </div>
 

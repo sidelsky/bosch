@@ -608,7 +608,7 @@ body {
   font-family: 'bosch_sansregular';
 }
 
-.hero .inner:after, .steps ul.inner li:after, footer .inner:after, .remodal-wrapper .remodal .inner:after {
+.hero .inner:after, .steps ul.inner li:after, footer .inner:after, .remodal .inner:after, .table-list:after {
   content: "";
   display: table;
   clear: both;
@@ -689,10 +689,6 @@ ul, li {
   margin: 0;
   padding: 0;
   list-style-type: none;
-}
-
-.remodal-wrapper .remodal .inner .col1, .remodal-wrapper .remodal .inner .col2 {
-  outline: solid red 1px;
 }
 
 .hide {
@@ -3671,7 +3667,7 @@ footer .inner .col1 ul li {
   }
 }
 
-.remodal-wrapper .remodal .logo {
+.remodal .logo {
   margin-top: 0px;
   margin-top: 0rem;
   padding-top: 0px;
@@ -3682,10 +3678,10 @@ footer .inner .col1 ul li {
   margin-bottom: 2.66667rem;
   width: 150px;
 }
-.remodal-wrapper .remodal h1, .remodal-wrapper .remodal h2, .remodal-wrapper .remodal p {
+.remodal h1, .remodal h2, .remodal p {
   text-align: left;
 }
-.remodal-wrapper .remodal .inner .col1 {
+.remodal .inner .col1 {
   margin-top: 0px;
   margin-top: 0rem;
   padding-top: 60px;
@@ -3697,24 +3693,43 @@ footer .inner .col1 ul li {
   padding-left: 2.6em;
 }
 @media (min-width: 1024px) {
-  .remodal-wrapper .remodal .inner .col1 {
+  .remodal .inner .col1 {
     width: 58.33333%;
     float: left;
   }
 }
-.remodal-wrapper .remodal .inner .col2 img {
+.remodal .inner .col2 img {
   float: right;
   width: 100%;
 }
 @media (min-width: 1024px) {
-  .remodal-wrapper .remodal .inner .col2 {
+  .remodal .inner .col2 {
     width: 41.66667%;
     float: left;
   }
 }
-.remodal-wrapper .remodal p {
+.remodal p {
   padding-left: 2.6em;
   display: block;
+}
+
+.table-list .col {
+  width: 25%;
+  float: left;
+}
+.table-list .col li {
+  display: block;
+  margin-top: 0px;
+  margin-top: 0rem;
+  padding-top: 12px;
+  padding-top: 0.66667rem;
+  padding-bottom: 12px;
+  padding-bottom: 0.66667rem;
+  margin-bottom: 0px;
+  margin-bottom: 0rem;
+}
+.table-list .col li:nth-child(2n) {
+  background-color: #D2D2D2;
 }
 
 form ul li {
