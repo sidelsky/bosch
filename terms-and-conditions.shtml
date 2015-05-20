@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Step 2</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+	<link rel="stylesheet" href="styles/unminified-styles/app.css">
+	<!--
+      Minified styles
+      <link rel="stylesheet" href="styles/app.css">
+    -->
+	<script src="javascript/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+
+<body id="skrollr-body">
+
+	<!--[if lt IE 7]>
+  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+	<!--
+  <div id="info">0</div>
+
+  <div id="progress-bar"
+  data-0="width:0%;"
+  data-end="width:100%"
+  >
+  </div>
+-->
+
+	<!-- Content -->
+
+	<header id="header" class="header">
+
+		<div class="inner">
+			<a href="index.shtml">
+				<img src="images/bosch-logo.png" alt="Bosch logo">
+			</a>
+		</div>
+
+	</header>
+
+	<!-- <div class="hero">
+  <div class="inner">
+    <div class="col col1">
+      <h1>£100* towards your summer wardrobe</h1>
+      <h2>Claim £100 towards your new wardrobe this summer when you purchase a selected laundry appliance from Bosch.</h2>
+      <h3>*Free for a short time only</h3>
+    </div>
+    <div class="col col2">
+     <img src="images/bosch-washing-machine.png" alt="Bosch washing machine and pants on the washing line">
+   </div>
+
+ </div>
+
+ <i class="scroll-down">
+  <img src="images/scroll-down-icon.png" alt="Scroll down">
+</i>
+
+</div> -->
+
+
+
+	<div class="container">
+
+		<h1>Full Terms and Conditions </h1>
+		<p><strong>These Terms and Conditions prevail in the event of any conflict or inconsistency with any other communications, including advertising or promotional materials. Participants of the Promotion agree to be bound by these terms and conditions. </strong>
+		</p>
+		<p><strong>Promoter: Bosch, a division of BSH Home Appliances Limited, a company registered in England and Wales under company registration no. 01844007, and whose registered office is at Grand Union House, Old Wolverton Road, Wolverton, Milton Keynes, Buckinghamshire, MK12 5PT. </strong>
+		</p>
+
+		<ol class="inner-list">
+			<li><strong>Eligibility:</strong> The promotion is open to all UK (England, Scotland, Wales and Northern Ireland), Channel Islands and Isle of Man residents aged 18 or over, excluding employees of the Promoter and its affiliates or agents, the immediate families of such employees and any other person connected with this promotion. </li>
+			<li><strong>How to participate:</strong> Entrants must purchase a qualifying Bosch Laundry model within a participating retailer between 04/06/15 and 01/07/15 (“the Promotional Period”).
+			</li>
+			<li><strong>Qualifying Models:</strong> The following Bosch Laundry models are included within this promotion:
+				<div class="table-list">
+					<ul class="col">
+						<li>WAY28790GB</li>
+						<li>WAS28462GB</li>
+						<li>WAQ2836SGB</li>
+						<li>WAT32480GB</li>
+						<li>WAW28560GB</li>
+					</ul>
+					<ul class="col">
+						<li>WAS287B0GB</li>
+						<li>WAQ28462GB</li>
+						<li>WAQ284D0GB</li>
+						<li>WVH28422GB</li>
+						<li>WAQ283S1GB</li>
+					</ul>
+					<ul class="col">
+						<li>WAW28660GB</li>
+						<li>WAT28460GB</li>
+						<li>WAQ28470GB</li>
+						<li>WVG30461GB</li>
+						<li>WAT28350GB</li>
+					</ul>
+					<ul class="col">
+						<li>WAW32560GB</li>
+						<li>WAT24460GB</li>
+						<li>WAY28791GB</li>
+						<li>WVH2836SGB</li>
+						<li>WVG3046SGB</li>
+					</ul>
+				</div>
+			</li>
+			<li>The Promotion shall not apply to purchases of graded, seconds, replacements and imperfect products or to trade contract sales.</li>
+			<li>Each qualifying customer will be eligible to receive a £100 Bosch Prepaid MasterCard® (“the Offer”). </li>
+			<li>Participating customers must register their claim within 30 days of purchasing their Laundry Appliance at <a href="http://www.bosch-home.co.uk/summerwardrobe" target="_blank">www.bosch-home.co.uk/summerwardrobe</a>, by providing their name and email address. Customers will then receive an email within 48 working hours containing a unique code to be used at <a href="http://www.bosch-home.co.uk/summerwardrobe" target="_blank">www.bosch-home.co.uk/summerwardrobe</a>, where they must upload a copy of the original full purchase receipt showing the model number and date of purchase as well as enter the product ENR and FD numbers within 30 days of dispatch of the email. Claims received after 30 days will be deemed invalid. </li>
+			<li>All registrations must be received by the Promoter by midnight 31/07/15. </li>
+			<li>The Promoter accepts no responsibility for any registrations or final claims that are incomplete, illegible, corrupted, lost, damaged, delayed or fail to reach the Promoter by midnight 02/09/15.
+			</li>
+			<li>The Promoter reserves the right to investigate and undertake all such action, as is reasonable, to protect itself against fraudulent or invalid claims including, without limitation, to require purchasers to provide further verification as to proof of purchase. In addition, the Promoter reserves the right to reject those claims which it considers, in its absolute discretion, are fraudulent or invalid. </li>
+			<li>Only one free offer per eligible Laundry Appliance. The Offer is not transferrable. </li>
+			<li>Valid customers will be sent an email containing a link within 7 days of registering their claim. Customers must click on the link within 14 days of dispatch of the email to confirm their postal address. The £100 Bosch Prepaid MasterCard® will then be sent to the confirmed postal address within 5 working days. Customers should allow 5 working days for delivery before enquiries. </li>
+			<li>Once customers have received their £100 Bosch Prepaid MasterCard®, to access the Pin number, balance or transaction history customers must visit <a href="http://www.prepaidcardstatus.com" target="_blank">prepaidcardstatus.com</a>.
+				<ul class="inner-list">
+					<li>reside outside of the UK, Channel Islands or Isle of Man;</li>
+					<li>have not purchased a qualifying Laundry Model from a participating retailer during the Promotion Period;</li>
+					<li>have not completed the official online application form correctly;</li>
+					<li>have not registered within 30 days of purchasing their qualifying Laundry Model and by 31/07/15;</li>
+					<li>have not submitted their claim including unique code, Proof of Purchase and ENR / FD number within 30 days dispatch of the confirmation email and by 02/09/15; have not uploaded a legible original full purchase receipt showing the model number and date of purchase;</li>
+					<li>have not submitted a valid ENR and FD number on application form;</li>
+					<li>have not confirmed postal address within 14 days of dispatch of email; </li>
+					<li>have failed in any way to otherwise comply with these Terms and Conditions as determined by The Promoter in its sole discretion.</li>
+				</ul>
+			</li>
+			<li>Your claim will be deemed invalid if (including but not limited to) you;</li>
+			<li>The Offer has no cash value or alternative and cannot be used in conjunction with any other offers. </li>
+			<li>Redeeming The Offer is deemed acceptance of these terms and conditions. </li>
+			<li>Prepaid MasterCard® Terms and conditions will apply. MasterCard and the MasterCard Brand Mark are registered trademarks of MasterCard International Incorporated. Card is issued by Transact Payments Limited pursuant to license by MasterCard International Incorporated. Transact Payments Limited is authorised and regulated.
+			</li>
+			<li>The Bosch Prepaid MasterCard® cannot be used at ATM to remove funds. </li>
+			<li>When using the Bosch Prepaid MasterCard® at UK Retailers, if the purchase is more than the card balance, first pay the difference with another form of payment and then charge up to the amount of funds available. Not all merchants accept split transactions.
+			</li>
+			<li>Insofar as permitted by law, Neither the Promoter, nor its agents or distributors will, permitted by law, be responsible or liable to compensate the purchaser or other bearer, or accept any liability, any personal loss or injury occurring whilst using The Offer, neither can they guarantee the quality and/or availability of the services offered when using The Offer and cannot be held liable for any resulting personal loss or damage. Your statutory rights are unaffected.
+			</li>
+			<li>The Promoter reserves the right to change the terms and conditions, and void, cancel, suspend or amend the promotion where it becomes necessary to do so in the event of circumstances beyond its reasonable control.
+			</li>
+			<li>The Promoter shall use data submitted by purchasers for the purposes of operating the Promotion only, unless otherwise stated in the claim details. By submitting a claim, purchasers consent to the use of their personal data by the Promoter for the purposes of the administration of the Promotion. The Promoter’s privacy policy is available at <a href="http://www.bosch-home.co.uk/privacy-policy.html" target="_blank">http://www.bosch-home.co.uk/privacy-policy.html</a>
+			</li>
+			<li>This promotion is administered by TLC Marketing UK Ltd (TLC), PO Box 468, Swansea SA1 1RH. All correspondence regarding this offer should be directed to “Bosch Summer Wardrobe, PO Box 468, Swansea SA1 1RH”. If for any reason you encounter a problem please call 033 0124 1220 for assistance. Calls are charged at your local network rate, please check with your telephone service provider for exact charges. </li>
+			<li>The Promoter’s decision regarding any aspect of the promotion is final and binding. </li>
+			<li>Any question concerning the legal interpretation of the rules will be based on English law and the Courts of England and Wales will have exclusive jurisdiction. </li>
+		</ol>
+
+		<p><strong>Abridged Terms and Conditions</strong>
+		</p>
+		<p>Open to UK, CI and IOM residents aged 18 and over. To be eligible for a £100 Bosch Prepaid MasterCard®, entrants must purchase a qualifying Bosch Laundry Appliance at a participating retailer between 04/06/15 and 01/07/15. All claims must be registered at www.bosch-home.co.uk/summerwardrobe within 30 days of purchase. Proof of purchase required. Date restrictions apply. Full terms & conditions available at www.bosch-home.co.uk/summerwardrobe.</p>
+
+		<p><strong>Small Terms</strong>
+		</p>
+		<p>UK, CI &amp; IOM 18+. Closes 01/07/15. T&amp;C’s apply.</p>
+	</div>
+
+	<footer>
+		<div class="inner">
+			<div class="col1">
+				<ul>
+					<li>
+						<a href="faqs.shtml" title="">FAQs</a>
+					</li>
+					<li>
+						<a href="terms-and-conditions.shtml" title="">T&Cs</a>
+					</li>
+					<li>
+						<a href="contact-us.shtml" title="">Contact us</a>
+					</li>
+					<li>
+						<a href="cookies-policy.shtml" title="">Cookies policy</a>
+					</li>
+					<li>
+						<a href="privacy-policy.shtml" title="">Privacy policy</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col2">
+				<p>© Copyright 2015 TLC Marketing</p>
+				<a href="http://www.tlcmarketing.com/" title="TLC Marketing">
+					<img src="images/powered-by-tlc-marketing.png" alt="Powered by TLC Marketing">
+				</a>
+			</div>
+		</div>
+	</footer>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+	<!--
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="vendors/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
+    <script src="javascript/main.min.js"></script>
+  -->
+
+	<script src="javascript/main.min.js"></script>
+
+</body>
+
+</html>

@@ -1,5 +1,6 @@
 .module-12-of-12 {
 	@include span(12 of 12);
+	@include clearfix;
 }
 
 .module-6-of-12 {

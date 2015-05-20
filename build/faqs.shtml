@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head> 
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Step 2</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> 
+
+  <link rel="stylesheet" href="styles/unminified-styles/app.css">
+    <!--
+      Minified styles
+      <link rel="stylesheet" href="styles/app.css">
+    -->
+    <script src="javascript/vendor/modernizr-2.6.2.min.js"></script>
+  </head>
+  <body id="skrollr-body">
+
+  <!--[if lt IE 7]>
+  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <!--
+  <div id="info">0</div>
+
+  <div id="progress-bar"
+  data-0="width:0%;"
+  data-end="width:100%"
+  >
+  </div>
+-->
+
+<!-- Content -->
+
+<header id="header" class="header">
+
+  <div class="inner">
+    <a href="index.shtml">
+      <img src="images/bosch-logo.png" alt="Bosch logo">
+    </a>
+  </div>
+
+</header>
+
+<!-- <div class="hero">
+  <div class="inner">
+    <div class="col col1">
+      <h1>£100* towards your summer wardrobe</h1>
+      <h2>Claim £100 towards your new wardrobe this summer when you purchase a selected laundry appliance from Bosch.</h2>
+      <h3>*Free for a short time only</h3>
+    </div>
+    <div class="col col2">
+     <img src="images/bosch-washing-machine.png" alt="Bosch washing machine and pants on the washing line">
+   </div>
+
+ </div>
+
+ <i class="scroll-down">
+  <img src="images/scroll-down-icon.png" alt="Scroll down">
+</i>
+
+</div> -->
+
+
+
+<div class="cssmenu faq">
+  <h1>FAQs</h1>
+  <ol>
+    <li class="has-sub do-opacity">
+      <a href="#">
+        <h3>
+          <span>What is the offer?</span>
+        </h3>
+      </a>
+      <ul class="sub-list">
+        <li>
+          <p>Purchase a selected Bosch Laundry model between <strong>04/06/15 and 01/07/15</strong> and qualify to receive a £100 Bosch Prepaid MasterCard® to spend towards your summer wardrobe.</p>
+        </li>
+      </ul>
+    </li>
+
+    <li class="has-sub do-opacity">
+      <a href="#">
+        <h3>
+          <span>What are the qualifying models of that I will have to purchase?</span>
+        </h3>
+      </a>
+      <ul class="sub-list">
+        <li>
+          <p>Purchase one of the following Bosch Laundry models to qualify for the offer:</p>
+          <div class="table-list">
+            <ul class="col">
+              <li>WAY28790GB</li>
+              <li>WAS28462GB</li>
+              <li>WAQ2836SGB</li>
+              <li>WAT32480GB</li>
+              <li>WAW28560GB</li>
+            </ul>
+            <ul class="col">
+              <li>WAS287B0GB</li>
+              <li>WAQ28462GB</li>
+              <li>WAQ284D0GB</li>
+              <li>WVH28422GB</li>
+              <li>WAQ283S1GB</li>
+            </ul>
+            <ul class="col">
+              <li>WAW28660GB</li>
+              <li>WAT28460GB</li>
+              <li>WAQ28470GB</li>
+              <li>WVG30461GB</li>
+              <li>WAT28350GB</li>
+            </ul>
+            <ul class="col">
+              <li>WAW32560GB</li>
+              <li>WAT24460GB</li>
+              <li>WAY28791GB</li>
+              <li>WVH2836SGB</li>
+              <li>WVG3046SGB</li>
+            </ul>
+          </div>
+          <p>The promotion shall not apply to purchases of graded, seconds, replacements and imperfect products or to trade contract sales.</p>
+        </li>
+      </ul>
+    </li>
+
+    <li class="has-sub do-opacity">
+      <a href="#">
+        <h3>
+          <span>When do I have to register my claim?</span>
+        </h3>
+      </a>
+      <ul class="sub-list">
+        <li>
+          <p>You have to register your interest within 30 days of purchasing your Laundry Appliance at <a href="http://www.bosch-home.co.uk/summerwardrobe" target="_blank">www.bosch-home.co.uk/summerwardrobe</a>.</p>
+        </li>
+      </ul>
+    </li>
+
+
+    <li class="has-sub do-opacity">
+      <a href="#">
+        <h3>
+          <span>What details do I have to supply when I register?</span>
+        </h3>
+      </a>
+      <ul class="sub-list">
+        <li>
+          <p>
+            Please provide your first name, last name and email address in order to register.</p>
+          </li>
+        </ul>
+      </li>
+
+      <li class="has-sub do-opacity">
+        <a href="#">
+          <h3>
+            <span>What happens after I register?</span>
+          </h3>
+        </a>
+        <ul class="sub-list">
+          <li>
+            <p>
+              After you have successfully registered you will receive an email within 2 working days containing a unique code to be used at <a href="http://www.bosch-home.co.uk/summerwardrobe" target="_blank">www.bosch-home.co.uk/summerwardrobe</a>. You will then need to enter your unique code, first name, last name, email address, postal address, appliance serial / E.Nr number and upload a proof of purchase at the site to qualify. You must do this within 30 days dispatch of the email. </p>
+            </li>
+          </ul>
+        </li>
+
+        <li class="has-sub do-opacity">
+          <a href="#">
+            <h3>
+              <span>What is a proof of purchase?</span>
+            </h3>
+          </a>
+          <ul class="sub-list">
+            <li>
+              <p>You must upload a copy of your original full purchase receipt showing the model number and date of purchase. The proof of purchase in this case is a till receipt that is provided by the participating retailer when you bought your Bosch laundry appliance. A clear scan or a photograph that shows all of the wording, dates and details is ideal.</p>
+            </li>
+          </ul>
+        </li>
+
+        <li class="has-sub do-opacity">
+          <a href="#">
+            <h3>
+              <span>How do I upload my proof of purchase?</span>
+            </h3>
+          </a>
+          <ul class="sub-list">
+            <li>
+              <p>When uploading your proof of purchase, click on ‘choose file’ then upload a JPEG or PDF into the upload box. If you are uploading a proof of purchase from a mobile, you can upload a picture or screenshot of your receipt.</p>
+            </li>
+          </ul>
+        </li>
+
+
+        <li class="has-sub do-opacity">
+          <a href="#">
+            <h3>
+              <span>I have lost my proof of purchase, what do I do?</span>
+            </h3>
+          </a>
+          <ul class="sub-list">
+            <li>
+              <p>Please contact your retailer to obtain a copy. Unfortunately you need your proof of purchase to claim your £100 Bosch Prepaid Mastercard®.</p>
+            </li>
+          </ul>
+        </li> 
+
+
+        <li class="has-sub do-opacity">
+          <a href="#">
+            <h3>
+              <span>Do I have to complete all the fields when claiming my £100 Bosch Prepaid Mastercard®?</span>
+            </h3>
+          </a>
+          <ul class="sub-list">
+            <li>
+              <p>Yes, you must complete all fields to register your claim.</p>
+            </li>
+          </ul>
+        </li> 
+
+        <li class="has-sub do-opacity">
+          <a href="#">
+            <h3>
+              <span>What happens after I register my unique code?</span>
+            </h3>
+          </a>
+          <ul class="sub-list">
+            <li>
+              <p>Following validation, you will be sent an email containing a link within 7 days of registering your claim. You must customers must click on the link within 14 days of dispatch of the email to confirm your postal address. The £100 Bosch Prepaid MasterCard® will then be sent to the confirmed postal address within 5 working days. Please allow 5 working days for delivery before enquiries.</p>
+            </li>
+          </ul>
+        </li>
+
+
+        <li class="has-sub do-opacity">
+          <a href="#">
+            <h3>
+              <span>How long is my £100 Bosch Prepaid MasterCard® valid for?</span>
+            </h3>
+          </a>
+          <ul class="sub-list">
+            <li>
+              <p>Your £100 Bosch Prepaid MasterCard® is valid for 12 months from dispatch, it will be marked clearly on the front of the card so please take note of this.</p>
+            </li>
+          </ul>
+        </li>
+
+        <li class="has-sub do-opacity">
+          <a href="#">
+            <h3>
+              <span>How many £100 Bosch Prepaid MasterCard®’s can I claim when purchasing a Bosch Laundry Appliance?</span>
+            </h3>
+          </a>
+          <ul class="sub-list">
+            <li>
+              <p>Only one free offer per one eligible Laundry Appliance. If you purchase eliglible two Laundry Appliance’s from Bosch you can claim two £100 Bosch Prepaid MasterCard®’s.</p>
+            </li>
+          </ul>
+        </li>
+
+        <li class="has-sub do-opacity">
+          <a href="#">
+            <h3>
+              <span>What are the reasons for being deemed as an invalid customer?</span>
+            </h3>
+          </a>
+          <ul class="sub-list">
+            <li>
+              <p>The following listed below are reasons as to why a you may could be deemed invalid;</p>
+
+              <ul class="inner-list">
+                <li>If you reside outside of the UK, Channel Islands or Isle of Man.</li>  
+                <li>If you have not purchased a qualifying Laundry Model from a participating retailer during the Promotion Period.</li>
+                <li>You have not completed the official online application form correctly. </li>
+                <li>You have not submitted the application form within the agreed time criteria and by 1st August 2015</li> 
+                <li>You have not submitted a valid ENR and FD number on application form</li>
+                <li>You have not confirmed your postal address within 14 days of dispatch of email </li>
+                <li>You have failed in any way to otherwise comply with the promotion Terms and Conditions</li> 
+              </ul>
+            </li>
+          </ul>
+        </li>
+
+        <li class="has-sub do-opacity">
+          <a href="#">
+            <h3>
+              <span>Can my £100 Bosch Prepaid MasterCard® be used at an ATM?</span>
+            </h3>
+          </a>
+          <ul class="sub-list">
+            <li>
+              <p>No, unfortunately not, the Bosch Prepaid MasterCard® cannot be used at an ATM to remove funds. It is accepted anywhere you see the MasterCard® logo.</p>
+            </li>
+          </ul>
+        </li>
+
+        <li class="has-sub do-opacity">
+          <a href="#">
+            <h3>
+              <span>What happens if my purchase is more than £100?</span>
+            </h3>
+          </a>
+          <ul class="sub-list">
+            <li>
+              <p>When using the Bosch Prepaid MasterCard® at UK Retailers, if the purchase is more than the card balance, first pay the difference with another form of payment and then charge up to the amount of funds available. Not all merchants accept split transactions though so please check in advance.</p>
+            </li>
+          </ul>
+        </li>
+
+        <li class="has-sub do-opacity">
+          <a href="#">
+            <h3>
+              <span>What happens if I haven’t received my laundry appliance and so I am unable to provide my appliance serial number?</span>
+            </h3>
+          </a>
+          <ul class="sub-list">
+            <li>
+              <p>If you haven’t received your Bosch laundry appliance within 30 days you must contact the customer service team.</p>
+            </li>
+          </ul>
+        </li>
+
+        <li class="has-sub do-opacity">
+          <a href="#">
+            <h3>
+              <span>What do I need to do to claim my Bosch Prepaid MasterCard®?</span>
+            </h3>
+          </a>
+          <ul class="sub-list">
+            <li>
+              <ol class="inner-list" type="1">
+                <li>You will need to purchase a selected Bosch appliance and visit <a href="http://www.bosch-home.co.uk/summerwardrobe">www.bosch-home.co.uk/summerwardrobe</a></li>
+
+                <li>You must visits the website within 30 days of purchasing the appliance to register your interest in the promotion, by providing your name and email address </li>
+                
+                <li>You will then receive an email within 2 working days with a URL and unique code for the online claim page. You have 30 days to visit this page and upload your proof of purchase (a receipt of your transaction) as well as enter your appliance serial number</li> 
+
+                <li>You will then be validated within 7 working days and will be sent a link to confirm your postal address for your Payment Card to be delivered. You have 14 days to do this </li>
+
+                <li>Once confirmed, your £100 Bosch Prepaid MasterCard® is posted to you! You have 12 months to use you MasterCard®</li>
+              </ol>
+            </li>
+          </ul>
+        </li>
+
+        <li class="has-sub do-opacity">
+          <a href="#">
+            <h3>
+              <span>Where can I find my serial number (E-Nr)?</span>
+            </h3>
+          </a>
+          <ul class="sub-list">
+            <li>
+              <p>You can find your laundry appliance serial number/ E.Nr on the back of the porthole door. Please see example below.</p>
+            </li>
+          </ul>
+        </li>
+
+        <li class="has-sub do-opacity">
+          <a href="#">
+            <h3>
+              <span>Where can I find my serial number (E-Nr)?</span>
+            </h3>
+          </a>
+          <ul class="sub-list">
+            <li>
+              <p>You can find your laundry appliance serial number/ E.Nr on the back of the porthole door. Please see example below.</p>
+              <img src="images/sample-code.jpg" alt="Sample">
+            </li>
+          </ul>
+        </li>
+
+        <li class="has-sub do-opacity">
+          <a href="#">
+            <h3>
+              <span>Where can I spend my card?</span>
+            </h3>
+          </a>
+          <ul class="sub-list">
+            <li>
+              <p>You can spend your £100 Bosch Prepaid MasterCard® at any UK retailers that accept MasterCard®.</p>
+            </li>
+          </ul>
+        </li>
+
+      </ol>
+    </div>
+
+
+
+    <footer>
+      <div class="inner">
+        <div class="col1">
+          <ul>
+            <li>
+              <a href="faqs.shtml" title="">FAQs</a>
+            </li>
+            <li>
+              <a href="terms-and-conditions.shtml" title="">T&Cs</a>
+            </li>
+            <li>
+              <a href="contact-us.shtml" title="">Contact us</a>
+            </li>
+            <li>
+              <a href="cookies-policy.shtml" title="">Cookies policy</a>
+            </li>
+            <li>
+              <a href="privacy-policy.shtml" title="">Privacy policy</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col2">
+          <p>© Copyright 2015 TLC Marketing</p>
+          <a href="http://www.tlcmarketing.com/" title="TLC Marketing">
+            <img src="images/powered-by-tlc-marketing.png" alt="Powered by TLC Marketing">
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <!--
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="vendors/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
+    <script src="javascript/main.min.js"></script>
+  -->
+
+  <script src="javascript/main.min.js"></script>
+
+</body>
+</html>

@@ -68,7 +68,6 @@ html.remodal-is-locked {
 
 .remodal {
     position: relative;
-
     display: inline-block;
 }
 
@@ -151,7 +150,8 @@ body.remodal-is-active .remodal-overlay {
 
     opacity: 0;
     color: #182a3c;
-    background: #f4f4f4;
+    //background: #f4f4f4;
+    background: $light-grey;
     background-clip: padding-box;
 }
 

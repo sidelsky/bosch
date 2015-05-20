@@ -51,8 +51,10 @@
 
 
 	.container {
-		width: 80em;
+		max-width: 80em;
 		margin: 0 auto;
+		padding: 0 2em;
+		@include rhythm(0, 2, 2, 0);
 	}
 
 	header.header{
@@ -87,7 +89,7 @@
 			position: relative;
 			@extend .max-width;	
 			//@include clearfix;
-			@extend %clearfix;
+			@extend %clearfix; 
 			//@extend %bdr;
 			.col {
 				&.col1 {
@@ -107,7 +109,7 @@
 						@include breakpoint($large){
 							float: right;
 							width: 80%;
-						}
+						} 
 					}
 				}
 			}
@@ -124,6 +126,9 @@
 				margin: 0 auto;
 				width: 30px;
 				height: auto;
+				&:hover {
+					cursor: pointer;
+				}
 				@include breakpoint($medium){
 					width: 43px;
 				}
@@ -142,44 +147,51 @@
 				@extend %clearfix;
 				position: relative;
 				@include rhythm(0, 3, 1, 0);
-			.inner {
-				@include span(10 of 12);
-			}
-			.outer {
-				@include span(2 of 12);
-				position: absolute;
-				right: 0;
-				bottom: 0;
-				height: 100%;
-			}
-			h4 {
-				&.link {
-					float: right;
-					@extend %vertical-align;
+				.inner {
+					@include span(10 of 12);
 				}
-			}
-			p {
+				.outer {
+					@include span(2 of 12);
+					position: absolute;
+					right: 0;
+					bottom: 0;
+					height: 100%;
+				}
+				h4 {
+					&.link {
+						float: right;
+						@extend %vertical-align;
+					}
+				}
+				p {
 
-			}
-			&.myBdr {
-				border-bottom: solid 1px $primary-color;
+				}
+				&.myBdr {
+					border-bottom: solid 1px $primary-color;
+				}
 			}
 		}
 	}
-}
 
 
-footer {
-	.inner {
-		@include rhythm(0, 3, 3, 0);
-		@extend .max-width;
-		@extend %clearfix;
-		.col1 {
+	footer {
+		.inner {
+			@include rhythm(0, 3, 3, 0);
+			@extend .max-width;
+			@extend %clearfix;
+			.col1 {
 			//@extend %bdr;
 			ul {
+				@include rhythm(0, 0, 0, 5);
 				li {
-					float: left;
-					margin-right: 20px;
+					margin-right: 1em;
+					@include rhythm(0, 0, 0, 2);
+					@include breakpoint($medium){
+						display: inline-block;
+					}
+					@include breakpoint($large){
+						display: inline-block;
+					}
 				}
 			}
 			@include breakpoint($large){
@@ -188,6 +200,9 @@ footer {
 		}
 		.col2 {
 			//@extend %bdr;
+			@include breakpoint($medium){
+				@include span(3 of 12);
+			}
 			@include breakpoint($large){
 				@include span(3 of 12);
 			}
@@ -195,17 +210,17 @@ footer {
 	}
 }
 
-	.remodal {
-		.logo {
-			@include rhythm(0, 0, 0, 4);
-			width: 150px;
-		}
-		h1, h2, p {
-			text-align: left;
-		}
-		.inner {
-			@extend %clearfix;
-			.col1 {
+.remodal {
+	.logo {
+		@include rhythm(0, 0, 0, 2);
+		width: 150px;
+	}
+	h1, h2, p {
+		text-align: left;
+	}
+	.inner {
+		@extend %clearfix;
+		.col1 {
 				//@extend %bdr;
 				@include rhythm(0, 5, 0, 0);
 				padding-left: 2.6em;
@@ -231,42 +246,185 @@ footer {
 	}
 
 
-.table-list {
-	@extend %clearfix;
-	.col {
-		@include span(3 of 12 no-gutters);
-		//@extend %bdr;
-		li {
-			display: block;
-			@include rhythm(0, 1, 1, 0);
-			&:nth-child(2n) {
-				background-color: #D2D2D2;
+	.table-list {
+		@extend %clearfix;
+		.col {
+			@include span(6 of 12 no-gutters);
+			@include breakpoint($medium){
+				@include span(3 of 12 no-gutters);
+			}
+			@include breakpoint($large){
+				@include span(3 of 12 no-gutters);
+			}
+			li {
+				display: block;
+				@include rhythm(0, 1, 1, 0);
+				text-align: left;
+				@include breakpoint($medium){
+					padding-left: 10px;
+					&:nth-child(2n) {
+						background-color: #D2D2D2;
+					}
+				}
+				@include breakpoint($large){
+					padding-left: 10px;
+					&:nth-child(2n) {
+						background-color: #D2D2D2;
+					}
+				}
+			}
+		}
+	}
+
+
+
+
+	.cssmenu {
+		@extend .max-width;
+		@include rhythm(0, 2, 2, 0);
+		ol, ul {
+			.has-sub {
+			//border-bottom: solid 1px lighten($grey, 40%);
+			//@include opacity(.6);
+			//@include transition(opacity .3s ease-in-out);
+		/* &:hover {
+			@include opacity(1);
+			} */
+			>a {
+				cursor: pointer;
+				text-decoration: none;
+		//@include rhythm(0, 1.5, 1.5, 0);
+		display: block;
+		p {
+			@include rhythm(0, 0, 0, 1);
+		}
+		h3 {
+			color: $tertiary-color;
+			position: relative;
+			&:after {
+				font-size: 16px;
+				content: "\f10c";
+				font-family: FontAwesome;
+				font-style: normal;
+				font-weight: normal;
+				text-decoration: inherit;
+				position: absolute;
+				right: 0px;
+				top: 0px;
+			}
+			span {
+				display: block;
+				padding-right: 2em;
+			}	
+		}
+	}
+
+	&.open {
+		//@include opacity(1);
+		>a {
+			h3{
+				color: $primary-color;
+				&:after {
+					content: "\f111";
+				}
+			}
+			>p {
+				color: $primary-color;
+			}
+		}
+		.more {
+			&:after {
+				content: "\f106" !important;
+			} 
+		}
+	}
+}
+}
+&.faq {
+	.has-sub {
+		border-bottom: solid 1px $grey;
+		@include transition(opacity .3s ease-in-out);
+		>a {
+			@include rhythm(0, 2.5, 1, 0);
+		}
+	}
+}
+}
+
+
+.active-opacity {
+	@include opacity(.2);
+}
+
+.open {
+	@include opacity(1);
+}
+
+
+ul.inner-list {
+	@include rhythm(0, 0, 0, 2);
+	display: block;
+	padding-left: 2em;
+	li {
+		list-style-type: disc;
+		@include adjust-leading-to(2.2);
+		@include rhythm(0, 1, 1, 0);
+	}
+}
+
+
+ol.inner-list {
+	@include rhythm(0, 0, 0, 2);
+	display: block;
+	padding-left: 2em;
+	li {
+		list-style-type: decimal;
+		@include rhythm(0, 1, 1, 0);
+		@include adjust-leading-to(2.2);
+		ul.inner-list {
+			li {
+				list-style-type: disc;
+				@include adjust-leading-to(2.2);
+				@include rhythm(0, 1, 1, 0);
 			}
 		}
 	}
 }
 
-form {
-	ul {
-		li {
-			@include clearfix;
+.sub-list {
+	display: none;
+	li {
+		p {
+				//margin: 0;
+			}
+		}
+	}
+
+	form {
+		ul {
+			li {
+			//@extend %bdr;
+			//@include clearfix;
+			//@extend %clearfix;
 			.fields {
+				//@extend %bdr;
 				display: block;
 				width: 100%;
 				@include clearfix;
+				//@include has-layout;
+				//@extend %clearfix;
+				@extend %clearfix;
+				//Clearfix fix
 				@include rhythm(0, 1, 1, 0);
 				position: relative;
+				overflow: visible;
+				display: table;
 				h3 {
-					//color: $tertiary-color;
-					font-family: 'bosch_sansregular';
-					//@include adjust-leading-to(1);
-					@include rhythm(0, 0, .3, 0);
-					@include adjust-font-size-to(18px, 2);
-					color: $black;
-					@include transition(all 0.5s ease-in-out);
+					@include rhythm(0, 0, .6, 0);
+					@include adjust-font-size-to(21px, 2);
 					&.active {
 						color: $primary-color;
-						font-size: 20px;
+						//font-size: 20px;
 					}
 				}
 				@include breakpoint($medium){
@@ -274,9 +432,24 @@ form {
 						width: 25%;
 						float: left;
 					}
+					&.one-third {
+						width: 33.333%;
+						float: left;
+					}
 					&.two-fourths {
 						width: 50%;
 						float: left;
+						&.extra {
+							.one {
+								width: 54%;
+							}
+							.two {
+								width: 22%;
+							}
+							.three {
+								width: 22%;
+							}
+						}
 					}
 					&.three-fourths {
 						width: 75%;
@@ -286,8 +459,8 @@ form {
 				&.submit {
 					input [type="submit"]{
 						@include rhythm(1, 0, 0, 0);
-					}
-				}
+					}  
+				} 
 			}
 			//@include rhythm(0, .5, .5, 0);
 		}
@@ -297,5 +470,26 @@ form {
 .bdr-right {
 	@include breakpoint($medium){
 		border-right: solid 1em $white;
+	}
+}
+
+
+table {
+	text-align: left;
+	thead {
+		tr {
+			th {
+			font-family: 'bosch_sansbold';
+			padding: 0 1em;
+			@include rhythm(0, 0, 2, 0);
+			}
+		}
+	}
+	tr {
+		td {
+			padding: 0 1em;
+			@include rhythm(0, 0, 2, 0);
+			@include adjust-font-size-to(16px, 2);
+		}
 	}
 }

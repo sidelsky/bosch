@@ -25,13 +25,15 @@
   <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
 
+  <!--
   <div id="info">0</div>
 
   <div id="progress-bar"
   data-0="width:0%;"
   data-end="width:100%"
   >
-</div>
+  </div>
+  -->
 
 <!-- Content -->
 <div class="remodal" data-remodal-id="modal" data-remodal-options="hashTracking: false">
@@ -106,7 +108,7 @@
 </div>
 
 
-<div class="steps">
+<div class="steps" id="stop">
   <ul class="inner">
     <li class="active myBdr">
       <div class="inner">
@@ -114,7 +116,7 @@
         <p>Purchase a <a data-remodal-target="modal" href="#modal">qualifying Bosch Laundry Appliance</a></p>
       </div>
       <div class="outer">
-        <h4 class="link"><a href="#">Step 2 ></a></h4>
+        <h4 class="link"><a href="step2.shtml">Step 2 ></a></h4>
       </div>
     </li>
     <li class="opacity myBdr">

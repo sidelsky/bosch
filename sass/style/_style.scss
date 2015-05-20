@@ -31,7 +31,7 @@ header.header{
 			&.opacity {
 				@include opacity(0.4);
 			}
-			h4 {
+			h4 { 
 				color: $primary-color;
 				&.link {
 					font-size: 14px;
@@ -47,6 +47,45 @@ header.header{
 	}
 }
 
+.title {
+	font-family: 'bosch_sansbold';
+	@include adjust-font-size-to(24px, 2.5);
+}
+
+.small-type {
+	@include adjust-font-size-to(14px, 2);
+}
+
+
+
+form {
+	ul {
+		li {
+			.fields {
+				h3 {
+					font-family: 'bosch_sansregular';
+					color: lighten($black, 50%);
+					&.active {
+						color: $primary-color;
+						//font-size: 20px;
+					}
+				}
+				@include breakpoint($medium){
+					&.one-fourth { 
+					}
+					&.two-fourths {
+					}
+					&.three-fourths {
+					}
+				}
+				&.submit {
+				}
+			}
+		}
+	}
+}
+
+
 
 footer {
 	background-color: $light-grey;
@@ -59,7 +98,10 @@ footer {
 			}
 		}
 		.col2 {
-			text-align: right;
+			text-align: left;
+			@include breakpoint($large){
+				text-align: right;
+			}
 			p {
 				@include adjust-leading-to(1);
 			}
@@ -73,3 +115,5 @@ footer {
 #v-gradient {
   @include background-image(linear-gradient($tertiary-color, $primary-color));
 }
+
+

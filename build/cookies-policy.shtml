@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head> 
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Step 2</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> 
+
+  <link rel="stylesheet" href="styles/unminified-styles/app.css">
+    <!--
+      Minified styles
+      <link rel="stylesheet" href="styles/app.css">
+    -->
+    <script src="javascript/vendor/modernizr-2.6.2.min.js"></script>
+  </head>
+  <body id="skrollr-body">
+
+  <!--[if lt IE 7]>
+  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <!--
+  <div id="info">0</div>
+
+  <div id="progress-bar"
+  data-0="width:0%;"
+  data-end="width:100%"
+  >
+  </div>
+-->
+
+<!-- Content -->
+
+<header id="header" class="header">
+
+  <div class="inner">
+    <a href="index.shtml">
+      <img src="images/bosch-logo.png" alt="Bosch logo">
+    </a>
+  </div>
+
+</header>
+
+<!-- <div class="hero">
+  <div class="inner">
+    <div class="col col1">
+      <h1>£100* towards your summer wardrobe</h1>
+      <h2>Claim £100 towards your new wardrobe this summer when you purchase a selected laundry appliance from Bosch.</h2>
+      <h3>*Free for a short time only</h3>
+    </div>
+    <div class="col col2">
+     <img src="images/bosch-washing-machine.png" alt="Bosch washing machine and pants on the washing line">
+   </div>
+
+ </div>
+
+ <i class="scroll-down">
+  <img src="images/scroll-down-icon.png" alt="Scroll down">
+</i>
+
+</div> -->
+
+
+
+  <div class="container">
+
+    <h1>Cookies Policy</h1>
+
+    <p><strong>What are Cookies?</strong></p>
+
+    <p>Cookies are small text files placed on your computer or mobile device by websites. They store preferences and other information to allow you to use the website efficiently and also provide information on how websites are used. Some cookies are essential for the website to function, others are optional.</p>
+
+    <p>With most Internet Browsers, you can erase Cookies from your computer hard drive, block all Cookies, or receive a warning before a Cookie is stored. Further details on removing Cookies is available on <a href="http://www.aboutcookies.org" target="_blank">www.aboutcookies.org</a>. Please note that removing or blocking Cookies may interfere with your full use of our sites.</p>
+
+    <p><strong>Essential Cookies</strong></p>
+    <p>We use session cookies to store information that are essential for the website to function. This includes cookies that store code validation and reward information. These cookies expire when you terminate your browser session.</p>
+
+
+    <p><strong>Performance Cookies</strong></p>
+    <p>These cookies collect information about how visitors use a website, for instance which pages visitors go to most often, and if they get error messages from web pages. These cookies do not collect information that identifies a visitor. All information these cookies collect is aggregated and therefore anonymous. It is only used to improve how a website works.</p>
+    <p>We use cookies to “remember” what interactions the user has had with the site and the web pages the user has viewed, for example the URL of the page.</p>
+
+    <p><strong>What first party cookies does this site use?</strong></p>
+
+<table>
+      <thead>
+        <tr>
+          <th width="182">Cookie</th>
+          <th width="164">Name</th>
+          <th width="717">Purpose</th>
+          <th width="273">Expiry</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>TLC Temporary .NET Sessions State</td>
+          <td>ASP.NET_SessionId</td>
+          <td>Used to maintain an anonymized user session by our web servers.  When you leave the site, this cookie will be removed.</td>
+          <td>On close of current web session</td>
+        </tr>
+
+        <tr>
+          <td>TLC Temporary .NET Sessions State</td>
+          <td>CC_analytics</td>
+          <td>Cookie Consent cookies which appear after you have clicked on the ‘allow cookies’ in the floating footer. More info <a href="http://silktide.com/cookieconsent" target="_blank"></a></td>
+          <td>On close of current web session</td>
+        </tr>
+
+        <tr>
+          <td colspan="4">These cookies are used to collect information about how visitors use a TLC site. We use the information to compile reports and to help us improve the site. The cookies collect information in an anonymous form, including the number of visitors to the site, where visitors have come to the site from and the pages they visited.</td>
+        </tr>
+
+        <tr>
+          <td>GoogleAnalytics</td>
+          <td>_utma</td>
+          <td rowspan="4">Google stores the information collected by the cookies on servers in the United States. Google may also transfer this information to third parties where required to do so by law, or where such third parties process the information on Google's behalf. Google will not associate your IP address with any other data held by Google.
+Unless you opt-out of the Google Cookie, by using this site you consent to the use of the Google Cookie and any information generated by Google Analytics. </td>
+          <td>2 years</td>
+        </tr>
+
+        <tr>
+          <td> </td>
+          <td>_utma</td>
+          <td>30 minutes</td>
+        </tr>
+
+        <tr>
+          <td>&nbsp;</td>
+          <td>_utma</td>
+          <td>On close of web session</td>
+        </tr>
+
+        <tr>
+          <td>&nbsp;</td>
+          <td>_utma</td>
+          <td>6 months</td>
+        </tr>
+
+        <tr>
+          <td colspan="4">You can find an overview of privacy at Google here. For information on how to opt-out from all GoogleAnalytics cookies (from all sites not just from TLC Marketing) visit Google.</td>
+        </tr>
+
+      </tbody>
+    </table>
+
+
+<p><strong>This site does not use any Third party Cookies.</strong></p>
+
+<p>If you would like more information on the Cookies used by our site (and any other site) you can do so from within your web browser by following these steps: <a href="http://www.wikihow.com/View-Cookies" target="_blank">http://www.wikihow.com/View-Cookies</a></p>
+
+</div>
+
+
+
+    <footer>
+      <div class="inner">
+        <div class="col1">
+          <ul>
+            <li>
+              <a href="faqs.shtml" title="">FAQs</a>
+            </li>
+            <li>
+              <a href="terms-and-conditions.shtml" title="">T&Cs</a>
+            </li>
+            <li>
+              <a href="contact-us.shtml" title="">Contact us</a>
+            </li>
+            <li>
+              <a href="cookies-policy.shtml" title="">Cookies policy</a>
+            </li>
+            <li>
+              <a href="privacy-policy.shtml" title="">Privacy policy</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col2">
+          <p>© Copyright 2015 TLC Marketing</p>
+          <a href="http://www.tlcmarketing.com/" title="TLC Marketing">
+            <img src="images/powered-by-tlc-marketing.png" alt="Powered by TLC Marketing">
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <!--
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="vendors/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
+    <script src="javascript/main.min.js"></script>
+  -->
+
+  <script src="javascript/main.min.js"></script>
+
+</body>
+</html>

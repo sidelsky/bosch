@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head> 
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Step 2</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> 
+
+  <link rel="stylesheet" href="styles/unminified-styles/app.css">
+    <!--
+      Minified styles
+      <link rel="stylesheet" href="styles/app.css">
+    -->
+    <script src="javascript/vendor/modernizr-2.6.2.min.js"></script>
+  </head>
+  <body id="skrollr-body">
+
+  <!--[if lt IE 7]>
+  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <!--
+  <div id="info">0</div>
+
+  <div id="progress-bar"
+  data-0="width:0%;"
+  data-end="width:100%"
+  >
+  </div>
+-->
+
+<!-- Content -->
+
+<header id="header" class="header">
+
+  <div class="inner">
+    <a href="index.shtml">
+      <img src="images/bosch-logo.png" alt="Bosch logo">
+    </a>
+  </div>
+
+</header>
+
+<div class="hero">
+  <div class="inner">
+    <div class="col col1">
+      <h1>£100* towards your summer wardrobe</h1>
+      <h2>Claim £100 towards your new wardrobe this summer when you purchase a selected laundry appliance from Bosch.</h2>
+      <h3>*Free for a short time only</h3>
+    </div>
+    <div class="col col2">
+     <img src="images/bosch-washing-machine.png" alt="Bosch washing machine and pants on the washing line">
+   </div>
+
+ </div>
+
+ <i class="scroll-down">
+  <img src="images/scroll-down-icon.png" alt="Scroll down">
+</i>
+
+</div>
+
+
+<div class="steps">
+  <ul class="inner">
+    <li class="opacity myBdr">
+      <div class="inner">
+        <h4>Step 1</h4>
+        <p>Purchase a qualifying Bosch Laundry Appliance</p>
+      </div>
+      <div class="outer">
+        <!-- <h4 class="link"><a href="#">Step 2 ></a></h4> -->
+      </div>
+    </li>
+    <li class="opacity myBdr">
+      <h4>Step 2</h4>
+      <p>Register your details within 30 days of purchasing your appliance.</p>
+    </li>
+    <li class="active">
+      <h4>Step 3</h4>
+      <p>Now that you have received your unique code and laundry appliance, we just need a few details from you in order to validate your claim. Remember, you will need your proof of purchase and your appliance serial number to hand. </p>
+
+      <form action="" id="">
+        <ul>
+          <li>
+            <div class="fields two-fourths bdr-right">
+              <h3>
+                <label for="nom"><span>*</span> First name</label>
+              </h3>
+              <input type="text" name="nom" id="nom" value="" placeholder="John">
+              <span class="sliding-u-l-r"></span>
+              <span class="error-message"> Error</span>
+            </div>
+
+            <div class="fields two-fourths">
+              <h3>
+                <label for="surname"><span>*</span> Last name</label>
+              </h3>
+              <input type="text" name="surname" id="surname" value="" placeholder="Smith">
+              <span class="sliding-u-l-r"></span>
+              <span class="error-message"> Error</span>
+            </div>
+
+            <div class="fields two-fourths bdr-right">
+              <h3>
+                <label for="email"><span>*</span> Email address</label>
+              </h3>
+              <input type="email" name="email" id="email" value="" placeholder="john.smith@gmail.com">
+              <span class="sliding-u-l-r"></span>
+              <span class="error-message"> Error</span>
+            </div>
+
+            <div class="fields two-fourths">
+              <h3>
+                <label for="confirmation"><span>*</span> Confirm Email address</label>
+              </h3>
+              <input type="email" name="confirmation" id="confirmation" value="" placeholder="john.smith@gmail.com">
+              <span class="sliding-u-l-r"></span>
+              <span class="error-message"> Error</span>
+            </div>
+
+            <div class="fields two-fourths bdr-right">
+              <h3>
+                <label for="unique-code"><span>*</span> Unique code</label>
+              </h3>
+              <input type="text" name="unique-code" id="unique-code" value="" placeholder="XXXXXXXXX XXX XXXX">
+              <span class="sliding-u-l-r"></span>
+              <span class="error-message"> Error</span>
+            </div>
+
+            <div class="fields two-fourths extra">
+              <h3>
+                <label for="serial-number"><span>*</span> Appliance serial number</label>
+              </h3>
+              <input type="text" class="zone" name="serial-number" id="serial-number" value="" placeholder="— — — — — — — — GB/—   FD — — — —   — — — — —">
+              <!-- <input type="text" class="two" name="serial-number" id="serial-number" value="" placeholder="FD — — — —">
+              <input type="text" class="three" name="serial-number" id="serial-number" value="" placeholder="— — — — —"> -->
+              <span class="sliding-u-l-r"></span>
+              <span class="error-message"> Error</span>
+            </div>
+
+            <div class="fields one-fourths">
+              <h3>
+                <label for="address"><span>*</span> Address</label>
+              </h3>
+              <input type="text" name="address" id="address" value="" placeholder="173 My Street...">
+              <span class="sliding-u-l-r"></span>
+              <span class="error-message"> Error</span>
+            </div>
+
+            <div class="fields two-fourths bdr-right">
+              <h3>
+                <label for="unique-code"><span>*</span> Town</label>
+              </h3>
+              <input type="text" name="unique-code" id="unique-code" value="" placeholder="London">
+              <span class="sliding-u-l-r"></span>
+              <span class="error-message"> Error</span>
+            </div>
+
+            <div class="fields two-fourths">
+              <h3>
+                <label for="unique-code"><span>*</span> Post code</label>
+              </h3>
+              <input type="text" name="unique-code" id="unique-code" value="" placeholder="SE23 3PY">
+              <span class="sliding-u-l-r"></span>
+              <span class="error-message"> Error</span>
+            </div>
+
+            <div class="fields two-fourths">
+              <h3>
+                <label for="unique-code"><span>*</span> Proof of purchase upload (pdf, gif, jpg, doc, docx)</label>
+              </h3>
+              <input type="file" readonly="readonly" class="">
+              <span class="sliding-u-l-r"></span>
+              <span class="error-message"> Error</span>
+            </div>
+
+
+
+            <div class="fields submit">
+              <input type="submit" name="" value="Submit form" class='gradient-example' id='v-gradient'>
+              <span class="error-message"> Error</span>
+            </div>
+          </li>
+
+        </ul>
+
+        <!-- ALERT MESSAGE! Should be hidden -->
+<!--         <div class="notice">
+          <h3>¡Bienvenido a la Red de Cines Nacional<sup>®</sup>!</h3>
+          <p>Tu registro se ha realizado con éxito. Por favor, activa tu cuenta a través del link que te hemos enviado a la dirección de correo electrónico que nos has indicado.</p>
+        </div> -->
+
+      </form>
+
+    </li>
+    <li class="opacity myBdr">
+      <h4>Step 4</h4>
+      <p>Once you’ve been validated, we'll email you a link to confirm your postal address within 14 days</p>
+    </li>
+    <li class="opacity myBdr">
+      <h4>Step 5</h4>
+      <p>We’ll post you your £100 Bosch Prepaid MasterCard® so you can start your summer wardrobe shopping!</p>
+    </li>
+  </ul>
+</div>
+
+<footer>
+  <div class="inner">
+    <div class="col1">
+      <ul>
+        <li>
+          <a href="faqs.shtml" title="">FAQs</a>
+        </li>
+        <li>
+          <a href="terms-and-conditions.shtml" title="">T&Cs</a>
+        </li>
+        <li>
+          <a href="contact-us.shtml" title="">Contact us</a>
+        </li>
+        <li>
+          <a href="cookies-policy.shtml" title="">Cookies policy</a>
+        </li>
+        <li>
+          <a href="privacy-policy.shtml" title="">Privacy policy</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col2">
+      <p>© Copyright 2015 TLC Marketing</p>
+      <a href="http://www.tlcmarketing.com/" title="TLC Marketing">
+        <img src="images/powered-by-tlc-marketing.png" alt="Powered by TLC Marketing">
+      </a>
+    </div>
+  </div>
+</footer>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <!--
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="vendors/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
+    <script src="javascript/main.min.js"></script>
+  -->
+
+  <script src="javascript/main.min.js"></script>
+
+</body>
+</html>

@@ -6,7 +6,7 @@
 <head> 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title></title>
+  <title>Step 2</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -25,13 +25,15 @@
   <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
 
+  <!--
   <div id="info">0</div>
 
   <div id="progress-bar"
   data-0="width:0%;"
   data-end="width:100%"
   >
-</div>
+  </div>
+  -->
 
 <!-- Content -->
 

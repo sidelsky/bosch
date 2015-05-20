@@ -10,7 +10,7 @@
     "gulp-image": "~0.5.7",
     "gulp-compass": "~2.0.3",
     "gulp-plumber": "~0.6.6",
-    "browser-sync": "~2.2.1",
+    "browser-sync": "~2.7.1",
     "gulp-order": "~1.1.1",
     "gulp-load-plugins": "~0.10.0"
   }
