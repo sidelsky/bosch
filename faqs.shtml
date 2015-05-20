@@ -358,19 +358,6 @@
           <ul class="sub-list">
             <li>
               <p>You can find your laundry appliance serial number/ E.Nr on the back of the porthole door. Please see example below.</p>
-            </li>
-          </ul>
-        </li>
-
-        <li class="has-sub do-opacity">
-          <a href="#">
-            <h3>
-              <span>Where can I find my serial number (E-Nr)?</span>
-            </h3>
-          </a>
-          <ul class="sub-list">
-            <li>
-              <p>You can find your laundry appliance serial number/ E.Nr on the back of the porthole door. Please see example below.</p>
               <img src="images/sample-code.jpg" alt="Sample">
             </li>
           </ul>

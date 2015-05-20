@@ -873,10 +873,10 @@ input[type="search"] {
 textarea {
   overflow: auto;
   /* Removes default vertical scrollbar in IE6/7/8/9 */
-  padding-left: 3px;
   vertical-align: top;
   /* Improves readability and alignment in all browsers */
   width: 100%;
+  padding: 3px 10px;
 }
 
 input[type="text"] {
@@ -4094,6 +4094,10 @@ table tr td {
   font-size: 0.88889rem;
   line-height: 24px;
   line-height: 1.33333rem;
+}
+
+.col {
+  display: block !important;
 }
 
 .module-12-of-12 {
